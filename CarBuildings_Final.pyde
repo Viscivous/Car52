@@ -1,6 +1,7 @@
 def setup():
     global cube, cube2,cube3,cube4,cube5,cube6,cube7,cube8,cube9,cube10
     size(1920, 1080, P3D)
+    fullScreen()
     frameRate(120)
     colorMode(HSB)
     cube = Cube(600, 0, 100, 3,100 ) # Creating the cube
